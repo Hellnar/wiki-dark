@@ -1,0 +1,29 @@
+/* Darker background */
+body, .mw-page-container, #vector-toc, #search, .uls-language-list, #uls-settings-block, .wikitable, td, .mwe-popups-container, button, button:hover, .cdx-search-input {
+    background-color: #374151 !important;
+    color: #d1d5db !important;
+}
+
+/* Lighter background */
+.infobox, .thumbinner, .quotebox, .side-box, .sidebar, .navbox, .navbox-title, .navbox-abovebelow, .metadata, .navbox-group, .navbox-list, .catlinks, input, th {
+    color: #d1d5db !important;
+    background-color: #4b5563 !important;
+    border: none;
+}
+
+p, h1, h2, h3, h4, h5, h6, .hatnote, #siteSub, .vector-toc-toggle, table, span, ul, ol {
+    color: #d1d5db !important;
+}
+
+.mw-footer li {
+    background-color: #374151 !important;
+    color: #d1d5db !important;
+}
+
+#vector-toc:after {
+    background: none !important;
+}
+
+a {
+    color: #60a5fa !important;
+}
