@@ -1,21 +1,64 @@
-/* Darker background */
-body, .mw-page-container, #vector-toc, #search, .uls-language-list, #uls-settings-block, .wikitable, td, .mwe-popups-container, button, button:hover, .cdx-search-input {
+/* OLD DESIGN */
+body,
+#mw-head,
+#content,
+h1, h2, h3, h4, h5, h6,
+table, thead, tbody, tr, th, td, ul, ol, li,
+#toc,
+#mw-fr-reviewnotice, #mw-fr-revisiontag,
+.thumbinner,
+.mwe-popups, .mwe-popups-container,
+.NavHead,
+#catlinks, #mw-normal-catlinks, #mw-hidden-catlinks,
+#footer-info-lastmod, #footer-info-copyright,
+.navbox,
+.thumb,
+.hidden-title, .hidden-content div,
+blockquote,
+.ts-oq-header
+{
     background-color: #374151 !important;
     color: #d1d5db !important;
 }
 
-/* Lighter background */
-.infobox, .thumbinner, .quotebox, .side-box, .sidebar, .navbox, .navbox-title, .navbox-abovebelow, .metadata, .navbox-group, .navbox-list, .catlinks, input, th {
+code {
     color: #d1d5db !important;
     background-color: #4b5563 !important;
-    border: none;
 }
 
-p, h1, h2, h3, h4, h5, h6, .hatnote, #siteSub, .vector-toc-toggle, table, span, ul, ol {
-    color: #d1d5db !important;
+a {
+    color: #60a5fa !important;
+    background-color: #374151 !important;
 }
 
-.mw-footer li {
+button {
+    background-color: #3b82f6 !important;
+}
+
+.mwe-popups .mwe-popups-extract[dir='ltr']:after {
+    display: none;
+    background-image: none;
+}
+
+.red-link {
+    color: #fda4af !important;
+}
+
+
+
+/* NEW DESIGN */
+/* Some styling parts from old design are work for new design too */
+body,
+.mw-page-container,
+h1, h2, h3, h4, h5, h6,
+table, thead, tbody, tr, th, td, ul, ol, li,
+#vector-toc,
+.quotebox, .side-box-abovebelow, .side-box-flex,
+.portal-bar,
+.spoken-wikipedia,
+.rt-tooltip,
+#search, .uls-language-list, #uls-settings-block, .uls-no-found-more, .uls-menu, .uls-language-action-items
+{
     background-color: #374151 !important;
     color: #d1d5db !important;
 }
@@ -24,6 +67,11 @@ p, h1, h2, h3, h4, h5, h6, .hatnote, #siteSub, .vector-toc-toggle, table, span, 
     background: none !important;
 }
 
-a {
-    color: #60a5fa !important;
+.mw-ui-icon, .vector-pinnable-header-toggle-button {
+    background-color: transparent !important;
+}
+
+.uls-filterinput {
+    color: #d1d5db !important;
+    background-color: #4b5563 !important;
 }
