@@ -58,7 +58,8 @@ table, thead, tbody, tr, th, td, ul, ol, li,
 .spoken-wikipedia,
 .rt-tooltip,
 #search, .uls-language-list, #uls-settings-block, .uls-no-found-more, .uls-menu, .uls-language-action-items,
-.vector-menu-content
+.vector-menu-content,
+.module-shortcutboxplain
 {
     background-color: #374151 !important;
     color: #d1d5db !important;

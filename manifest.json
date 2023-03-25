@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Wiki dark",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A tiny extension applying dark theme to the Wikipedia pages.",
     "icons": {"128": "w.png"},
 
