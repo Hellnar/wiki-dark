@@ -1,5 +1,6 @@
 let url = window.location.href
 checkRedlinks()
+checkPre()
 
 document.addEventListener("click", () => {
     if(window.location.href !== url) {

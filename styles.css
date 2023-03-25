@@ -57,7 +57,8 @@ table, thead, tbody, tr, th, td, ul, ol, li,
 .portal-bar,
 .spoken-wikipedia,
 .rt-tooltip,
-#search, .uls-language-list, #uls-settings-block, .uls-no-found-more, .uls-menu, .uls-language-action-items
+#search, .uls-language-list, #uls-settings-block, .uls-no-found-more, .uls-menu, .uls-language-action-items,
+.vector-menu-content
 {
     background-color: #374151 !important;
     color: #d1d5db !important;
@@ -71,7 +72,36 @@ table, thead, tbody, tr, th, td, ul, ol, li,
     background-color: transparent !important;
 }
 
-.uls-filterinput {
+.uls-filterinput, .cdx-text-input__input, .vector-search-box-input {
     color: #d1d5db !important;
     background-color: #4b5563 !important;
+}
+
+.vector-menu-content-list li {
+    margin: 2px 8px !important;
+}
+.vector-menu-content-list li a {
+    border-bottom: 1px solid transparent !important;
+}
+
+.cdx-button {
+    opacity: 1 !important;
+}
+
+.vector-pinnable-header-label {
+    color: #d1d5db !important;
+}
+
+/* Pre tags */
+pre {
+    background-color: #cbd5e1 !important;
+}
+
+code {
+    color: #374151 !important;
+    background-color: #cbd5e1 !important;
+}
+
+code a {
+    background-color: #cbd5e1 !important;
 }
