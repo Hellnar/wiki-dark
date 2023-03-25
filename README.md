@@ -11,6 +11,6 @@ This extension provides a minimal amount of styles to enable dark theme for Wiki
 
 1. Download zip archive of this repository.
 2. Extract folder from zip archive to your desktop.
-3. Go to "Extensions" in your browser and enavle "developer mode".
+3. Go to "Extensions" in your browser and enable "developer mode".
 4. Load the folder with files.
 5. Happy usage 🙌
